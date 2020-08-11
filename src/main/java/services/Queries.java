@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Queries {
+public class Queries implements Greets{
 
     final String DATABASE_URL = "jdbc:h2:mem:db1";
 
